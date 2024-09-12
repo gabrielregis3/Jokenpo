@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jokenpo</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body>
+
+    <h1>Rock - Paper - Scissors</h1>
+
+    <div class="choices">
+        <button class="btn-grey btn-outline" onclick="playGame('Rock')">Rock</button>
+        <button class="btn-green btn-outline" onclick="playGame('Paper')">Paper</button>
+        <button class="btn-blue btn-outline" onclick="playGame('Scissors')">Scissors</button>
+    </div>
+
+    <div id="playerDisplay">Player: </div>
+    <div id="computerDisplay">Computer: </div>
+    <div id="resultDisplay">--</div>
+
+    <div class="scoreDisplay">Player Score:
+        <span id="playerScoreDisplay">0</span>
+    </div>
+
+    <div class="scoreDisplay">Computer Score:
+        <span id="computerScoreDisplay">0</span>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
