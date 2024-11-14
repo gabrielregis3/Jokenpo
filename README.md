@@ -1,5 +1,5 @@
 <h1>About the project</h1>
-A simple Jokenpo to practice TypeScript
+A simple Jokenpo to practice TypeScript.
 
 <h2>Getting started</h2>
 
